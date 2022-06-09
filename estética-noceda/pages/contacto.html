@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/sybfavicon.ico">
+    <link rel="stylesheet" href="../css/estilocss.css">
+    <title>Estética SYB</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo">SYB</div>
+            <ul class="menu_items">
+                <li><a href="../index.html" target="_self">inicio</a></li>
+                <li><a href="quienessomos.html" target="_self">quienes somos</a></li>
+                <li><a href="servicios.html" target="_self">servicios</a></li>
+                <li><a href="recomendaciones.html" target="_self">recomendaciones</a></li>
+                <li><a href="contacto.html" target="_self">contacto</a></li>
+            </ul>
+            <label for="" class="btn_menu">
+                <img src="../assets/img/menu.png" alt="">
+            </label>
+        </nav>
+    </header>
+    <section class="contacto" id="contacto">
+        <main class="registro">
+            <h3 class="tituloregistro">contacto</h3>
+            <form action="enviar.php" method="post" enctype="text/plain">
+                <label for="name1">nombre</label>
+                <input class="formulario" type="text" id="name1" name="name1" placeholder="nombre">
+                <label for="apellido">apellido</label> 
+                <input class="formulario" type="text" id="apellido" name="apellido" placeholder="apellido">
+                <label for="email">email</label>
+                <input class="formulario" type="email" id="email" name="email" placeholder="ejemplo@mail.com">
+                <label for="comentarios">comentarios</label>
+                <textarea class="textarea" name="comentarios" id="comentarios" cols="40" rows="5" placeholder="Escribe tu comentario"></textarea>
+                <input class="botons" type="submit" value="enviar">
+                <input class="botons" type="reset"value="restablecer">
+            </form>
+        </main>
+    </section>  
+    <footer class="footercontacto">
+        <p class="copyright">los derechos reservados syb - lucrecia noceda.</p>
+        <ul class="comunicacion">
+            <li class="instagram"><a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram.png" width="25" height="25"></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebook.png" width="25" height="25"></a></li>
+            <li class="whatsapp"><a href="https://www.whatsapp.com/" target="_blank"><img src="../assets/img/whatsapp.png" width="25" height="25"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
